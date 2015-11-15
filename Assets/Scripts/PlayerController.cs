@@ -49,6 +49,31 @@ public class PlayerController : MonoBehaviour {
         AddMeshPoint(new Vector3(3f, 2f, 0f));
         AddMeshPoint(new Vector3(5f, 1f, 0f));
         EndMesh();
+        StartMesh();
+        AddMeshPoint(new Vector3(-2f, -2f, 0f));
+        AddMeshPoint(new Vector3(-2.7f, -2.8f, 0f));
+        AddMeshPoint(new Vector3(-0.1f, -3f, 0f));
+        AddMeshPoint(new Vector3(0.6f, -2.6f, 0f));
+        AddMeshPoint(new Vector3(1.3f, -2f, 0f));
+        EndMesh();
+        StartMesh();
+        AddMeshPoint(new Vector3(4f, 0f, 0f));
+        AddMeshPoint(new Vector3(4f, -0.5f, 0f));
+        AddMeshPoint(new Vector3(4.5f, -0.5f, 0f));
+        AddMeshPoint(new Vector3(4.5f, 0f, 0f));
+        EndMesh();
+        StartMesh();
+        AddMeshPoint(new Vector3(4f, -0.75f, 0f));
+        AddMeshPoint(new Vector3(4f, -1.25f, 0f));
+        AddMeshPoint(new Vector3(4.5f, -1.25f, 0f));
+        AddMeshPoint(new Vector3(4.5f, -0.75f, 0f));
+        EndMesh();
+        StartMesh();
+        AddMeshPoint(new Vector3(4f, -2f, 0f));
+        AddMeshPoint(new Vector3(4f, -2.5f, 0f));
+        AddMeshPoint(new Vector3(4.5f, -2.5f, 0f));
+        AddMeshPoint(new Vector3(4.5f, -2f, 0f));
+        EndMesh();
 	}
 	
 
